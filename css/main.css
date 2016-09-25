@@ -1,0 +1,75 @@
+@import url('font-awesome.min.css');
+
+body { display: block;}
+
+.description p{padding:1.5em;}
+
+h5{font-size: 25px;}
+
+
+
+/*NAVIGATION*/
+.navigation {background-color:   #17202a;}
+.navigation ul{padding-right: 15px;}
+nav.navbar > .collapse > ul.nav a { color: white; }
+nav.navbar > .collapse > ul.nav a:hover { color: #17202a;} 
+.navbar-header > button > span { background-color: white; }
+
+.content-section{padding-bottom: 30px;padding-top:80px;color:#17202a;}
+
+.news-section{padding-bottom: 70px;color:#17202a;}
+.news-section h2{}
+.news-section h4{text-align: center;}
+.news{padding: 5px; box-shadow: 5px 5px 3px #17202a;}
+
+.services-section{padding-top:60px;margin: 0 20px; padding-bottom:60px;}
+.services-section h3{text-align: left;}
+
+.contacts-section{padding-top:60px;margin: 0 20px; padding-bottom:60px;}
+
+.reviews-section{padding-top:60px;margin: 0 20px; padding-bottom:60px;}
+.reviews-section figure{padding-bottom:15px;}
+.reviews-section h4{font-weight:bold;}
+
+.partners-section{padding-top:60px;margin: 0 20px; padding-bottom:60px;}
+.partners-section ul li{font-size: 18px;}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color:  #17202a;
+  padding:1.5em;
+}
+.footer p{color:white;}
+.footer i{font-size: 20px; padding-left:0.2em;padding-right:0.2em;}
+.footer a{color: white; transition: all 1s ease-in-out;}
+.footer a:hover{ transform: rotate(360deg) scale(2); text-decoration: none;}
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+.button-fill {
+  text-align: center;
+  background: #17202a;
+  display: inline-block;
+  position: relative;
+  text-transform: uppercase;
+  margin: 25px;
+  transition: all 1s ease-in-out;
+}
+.button-fill.grey {
+  background: #17202a;
+  color: white;
+}
+
+.button-text {
+  padding: 0 25px;
+  line-height: 56px;
+  letter-spacing: .1em;
+}
+
+.button-fill:hover{transform: scale(1.2);}
+
+
