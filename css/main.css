@@ -6,8 +6,6 @@ body { display: block;}
 
 h5{font-size: 25px;}
 
-
-
 /*NAVIGATION*/
 .navigation {background-color:   #17202a;}
 .navigation ul{padding-right: 15px;}
@@ -20,7 +18,9 @@ nav.navbar > .collapse > ul.nav a:hover { color: #17202a;}
 .news-section{padding-bottom: 70px;color:#17202a;}
 .news-section h2{}
 .news-section h4{text-align: center;}
-.news{padding: 5px; box-shadow: 5px 5px 3px #17202a;}
+.news{padding: 5px; box-shadow: 5px 5px 3px #17202a;height:700px;}
+
+
 
 .services-section{padding-top:60px;margin: 0 20px; padding-bottom:60px;}
 .services-section h3{text-align: left;}
